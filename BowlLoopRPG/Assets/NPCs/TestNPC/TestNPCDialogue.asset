@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 866c5b28191e37148bb40c874c3ea1ca, type: 3}
+  m_Name: TestNPCDialogue
+  m_EditorClassIdentifier: 
+  npcName:
+  - Test Guy
+  - Test Guy
+  - You!!!
+  npcPortrait:
+  - {fileID: 21300000, guid: 6f11105e63459a0478470f3eb2de6d0c, type: 3}
+  - {fileID: 21300000, guid: 6f11105e63459a0478470f3eb2de6d0c, type: 3}
+  - {fileID: 0}
+  dialogueLines:
+  - Welcome to the room test!
+  - Have you checked the weather?
+  - There is no weather.
+  TypingSpeed:
+  - 0.05
+  - 0.05
+  - 0.1
+  voiceSound:
+  - {fileID: 8300000, guid: 68ac0da5ca1fdfd41ae7defde5a246d6, type: 3}
+  - {fileID: 8300000, guid: 68ac0da5ca1fdfd41ae7defde5a246d6, type: 3}
+  - {fileID: 8300000, guid: 68ac0da5ca1fdfd41ae7defde5a246d6, type: 3}
+  voicePitch:
+  - 1
+  - 1
+  - 1
+  autoProgressLines: 000000
+  autoProgressDelay: 0
