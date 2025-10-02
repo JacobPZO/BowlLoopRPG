@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 97147308}
   - component: {fileID: 97147310}
   - component: {fileID: 97147309}
+  - component: {fileID: 97147311}
   m_Layer: 5
   m_Name: SettingsTab
   m_TagString: Untagged
@@ -408,6 +409,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97147307}
   m_CullTransparentMesh: 1
+--- !u!114 &97147311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97147307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1704948946}
+          m_TargetAssemblyTypeName: TabController, Assembly-CSharp
+          m_MethodName: ActivateTab
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &134585171
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,6 +1347,7 @@ GameObject:
   - component: {fileID: 711963895}
   - component: {fileID: 711963897}
   - component: {fileID: 711963896}
+  - component: {fileID: 711963898}
   m_Layer: 5
   m_Name: EquipTab
   m_TagString: Untagged
@@ -1382,6 +1413,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711963894}
   m_CullTransparentMesh: 1
+--- !u!114 &711963898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711963894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1704948946}
+          m_TargetAssemblyTypeName: TabController, Assembly-CSharp
+          m_MethodName: ActivateTab
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &847291534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,6 +2205,7 @@ GameObject:
   - component: {fileID: 1381421801}
   - component: {fileID: 1381421803}
   - component: {fileID: 1381421802}
+  - component: {fileID: 1381421804}
   m_Layer: 5
   m_Name: InventoryTab
   m_TagString: Untagged
@@ -2210,6 +2271,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381421800}
   m_CullTransparentMesh: 1
+--- !u!114 &1381421804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381421800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1704948946}
+          m_TargetAssemblyTypeName: TabController, Assembly-CSharp
+          m_MethodName: ActivateTab
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1557344314
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,6 +2386,7 @@ GameObject:
   - component: {fileID: 1699728745}
   - component: {fileID: 1699728747}
   - component: {fileID: 1699728746}
+  - component: {fileID: 1699728748}
   m_Layer: 5
   m_Name: PartyTab
   m_TagString: Untagged
@@ -2361,6 +2452,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699728744}
   m_CullTransparentMesh: 1
+--- !u!114 &1699728748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699728744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1704948946}
+          m_TargetAssemblyTypeName: TabController, Assembly-CSharp
+          m_MethodName: ActivateTab
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1704948943
 GameObject:
   m_ObjectHideFlags: 0
@@ -2371,6 +2491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1704948944}
   - component: {fileID: 1704948945}
+  - component: {fileID: 1704948946}
   m_Layer: 5
   m_Name: Tabs
   m_TagString: Untagged
@@ -2425,6 +2546,28 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &1704948946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704948943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1489b361a34cd4ba169293034bcb1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tabImages:
+  - {fileID: 1699728746}
+  - {fileID: 711963896}
+  - {fileID: 1381421802}
+  - {fileID: 97147309}
+  pages:
+  - {fileID: 2015946736}
+  - {fileID: 1557344314}
+  - {fileID: 205006478}
+  - {fileID: 68037093}
 --- !u!1 &1971892363
 GameObject:
   m_ObjectHideFlags: 0

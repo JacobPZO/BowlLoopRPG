@@ -339,6 +339,7 @@
 "Assets/Scripts/MenuController.cs"
 "Assets/Scripts/NPCDialogue.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/TabController.cs"
 -langversion:9.0
 
 /deterministic
