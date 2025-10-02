@@ -13,3 +13,4 @@ CHANGELOG:
 Added rigidbody physics.
 Added menu functionality.
 Implemented a simple save system.
+Began work on interaction and dialogue systems.
