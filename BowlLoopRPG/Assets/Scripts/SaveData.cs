@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
 
 [System.Serializable]
@@ -7,4 +8,15 @@ using UnityEngine;
 public class SaveData
 {
     public Vector3 playerPosition;
+
+    public List<ChestSaveData> chestSaveData;
 }
+
+[System.Serializable]
+
+public class ChestSaveData
+{
+    public string chestID;
+    public bool isOpened;
+}
+
