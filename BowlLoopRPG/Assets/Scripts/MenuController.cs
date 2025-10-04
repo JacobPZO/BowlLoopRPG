@@ -8,7 +8,12 @@ public class MenuController : MonoBehaviour
 {
     public void onMenuButtonPress(InputAction.CallbackContext context)
     {
+        if(!menuCanvas.activeSelf && PauseController.IsGamePaused)
+        {
+            return;
+        }
         menuCanvas.SetActive(!menuCanvas.activeSelf);
+        PauseController.SetPause(menuCanvas.activeSelf);
     }
 
     public GameObject menuCanvas;

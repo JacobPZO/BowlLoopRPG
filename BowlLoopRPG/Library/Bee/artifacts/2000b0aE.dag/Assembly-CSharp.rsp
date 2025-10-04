@@ -342,6 +342,7 @@
 "Assets/Scripts/InteractionDetector.cs"
 "Assets/Scripts/MenuController.cs"
 "Assets/Scripts/NPCDialogue.cs"
+"Assets/Scripts/PauseController.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SaveController.cs"
 "Assets/Scripts/SaveData.cs"

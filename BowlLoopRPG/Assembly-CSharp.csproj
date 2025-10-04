@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\Chest.cs" />
     <Compile Include="Assets\Scripts\IInteractable.cs" />
     <Compile Include="Assets\Scripts\TabController.cs" />
+    <Compile Include="Assets\Scripts\PauseController.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\NPCDialogue.cs" />
