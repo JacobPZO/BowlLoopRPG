@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 90
+  controlID: 104
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 512
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -819,9 +819,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.3152338, y: 4.623252, z: 0.13701616}
+    m_Target: {x: 526.0538, y: 266.4145, z: 2.3351386}
     speed: 2
-    m_Value: {x: 1.3152338, y: 4.623252, z: 0.13701616}
+    m_Value: {x: 526.0538, y: 266.4145, z: 2.3351386}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -867,13 +867,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2508881, y: 0.038313325, z: -0.009957283, w: -0.9671754}
+    m_Target: {x: -0.0138072455, y: 0.012595451, z: -0.00019215768, w: -0.99979514}
     speed: 2
-    m_Value: {x: -0.25089562, y: 0.038314473, z: -0.009957581, w: -0.9672044}
+    m_Value: {x: -0.013807662, y: 0.012595831, z: -0.00019216347, w: -0.9998253}
   m_Size:
-    m_Target: 12.326854
+    m_Target: 360.57452
     speed: 2
-    m_Value: 12.326854
+    m_Value: 360.57452
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -935,9 +935,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 28170000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
+      m_SelectedIDs: 5ce7ffff
+      m_LastClickedID: -6308
+      m_ExpandedIDs: 94dbffff5ce7ffff2cfbffff065e00002c5e0000825e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1208,7 +1208,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/NPCs/TestNPC
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1216,16 +1216,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/NPCs/TestNPC
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Ninja\Documents\GitHub\BowlLoopRPG\BowlLoopRPG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c85f0000
-    m_LastClickedID: 24520
-    m_ExpandedIDs: 00000000b45f000000ca9a3bffffff7f
+    m_SelectedIDs: fe5f0000
+    m_LastClickedID: 24574
+    m_ExpandedIDs: 00000000b65f0000c05f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1253,7 +1253,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b45f0000
+    m_ExpandedIDs: 00000000b65f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

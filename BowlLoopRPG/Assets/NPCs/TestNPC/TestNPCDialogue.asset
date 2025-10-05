@@ -19,12 +19,12 @@ MonoBehaviour:
   npcPortrait:
   - {fileID: 21300000, guid: 6f11105e63459a0478470f3eb2de6d0c, type: 3}
   - {fileID: 21300000, guid: 6f11105e63459a0478470f3eb2de6d0c, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 7a91b3e0263103e4c9aeb7000147a083, type: 3}
   dialogueLines:
   - Welcome to the room test!
   - Have you checked the weather?
   - There is no weather.
-  TypingSpeed:
+  typingSpeed:
   - 0.05
   - 0.05
   - 0.1

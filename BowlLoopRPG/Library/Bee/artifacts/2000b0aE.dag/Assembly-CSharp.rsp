@@ -341,6 +341,7 @@
 "Assets/Scripts/IInteractable.cs"
 "Assets/Scripts/InteractionDetector.cs"
 "Assets/Scripts/MenuController.cs"
+"Assets/Scripts/NPC.cs"
 "Assets/Scripts/NPCDialogue.cs"
 "Assets/Scripts/PauseController.cs"
 "Assets/Scripts/PlayerController.cs"

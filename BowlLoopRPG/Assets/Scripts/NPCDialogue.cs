@@ -9,7 +9,7 @@ public class NPCDialogue : ScriptableObject
     public string[] npcName;
     public Sprite[] npcPortrait;
     public string[] dialogueLines;
-    public float[] TypingSpeed;
+    public float[] typingSpeed;
     public AudioClip[] voiceSound;
     public float[] voicePitch;
     public bool[] autoProgressLines;
