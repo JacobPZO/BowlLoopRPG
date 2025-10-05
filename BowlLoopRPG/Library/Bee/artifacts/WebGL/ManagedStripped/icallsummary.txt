@@ -191,6 +191,7 @@ UnityEngine.GameObject::get_layer
 UnityEngine.GameObject::Internal_CreateGameObject
 UnityEngine.GameObject::SendMessage
 UnityEngine.GameObject::SetActive
+UnityEngine.GameObject::get_scene_Injected
 UnityEngine.GameObject::set_layer
 UnityEngine.GameObject::GetComponent
 UnityEngine.GameObject::GetComponentInChildren
@@ -411,6 +412,8 @@ UnityEngine.Object::set_hideFlags
 UnityEngine.Object::get_hideFlags
 UnityEngine.Object::FindObjectFromInstanceID
 UnityEngine.Object::Internal_CloneSingle
+UnityEngine.Object::Internal_InstantiateSingle_Injected
+UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
 UnityEngine.Physics::get_invokeCollisionCallbacks
@@ -511,6 +514,7 @@ UnityEngine.Resources::GetBuiltinResource
 UnityEngine.ResourcesAPIInternal::Load
 UnityEngine.ResourcesAPIInternal::FindObjectsOfTypeAll
 UnityEngine.ResourcesAPIInternal::FindShaderByName
+UnityEngine.SceneManagement.Scene::GetNameInternal
 UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width

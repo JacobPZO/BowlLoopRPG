@@ -43,7 +43,9 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/DemoScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -63,7 +65,9 @@
           },
           {
             "name": "SampleClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/DemoScene.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           }

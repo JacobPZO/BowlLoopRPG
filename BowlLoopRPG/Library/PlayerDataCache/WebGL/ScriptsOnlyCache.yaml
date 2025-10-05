@@ -2,7 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraFollow
+    - Chest
+    - InteractionDetector
     - MenuController
+    - NPC
+    - NPCDialogue
     - PlayerController
     - SaveController
     - TabController
@@ -102,6 +106,9 @@ ScriptsOnlyBuild:
     fullTypeName: PlayerController
     methodName: OnMove
   - assembly: Assembly-CSharp
+    fullTypeName: InteractionDetector
+    methodName: OnInteract
+  - assembly: Assembly-CSharp
     fullTypeName: TabController
     methodName: ActivateTab
   - assembly: Assembly-CSharp
@@ -141,6 +148,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -152,43 +161,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1608}
     - Class: 114
-      Script: {instanceID: 2266}
+      Script: {instanceID: 1670}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2270}
     - Class: 114
-      Script: {instanceID: 2980}
+      Script: {instanceID: 2762}
     - Class: 114
-      Script: {instanceID: 3314}
+      Script: {instanceID: 2984}
     - Class: 114
-      Script: {instanceID: 4006}
+      Script: {instanceID: 3320}
     - Class: 114
-      Script: {instanceID: 4102}
+      Script: {instanceID: 4012}
     - Class: 114
-      Script: {instanceID: 4456}
+      Script: {instanceID: 4108}
     - Class: 114
-      Script: {instanceID: 4746}
+      Script: {instanceID: 4462}
     - Class: 114
-      Script: {instanceID: 5174}
+      Script: {instanceID: 4752}
     - Class: 114
-      Script: {instanceID: 5544}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5922}
+      Script: {instanceID: 5182}
     - Class: 114
-      Script: {instanceID: 6058}
+      Script: {instanceID: 5552}
     - Class: 114
-      Script: {instanceID: 6170}
+      Script: {instanceID: 5930}
     - Class: 114
-      Script: {instanceID: 6350}
+      Script: {instanceID: 6066}
     - Class: 114
-      Script: {instanceID: 6696}
+      Script: {instanceID: 6178}
     - Class: 114
-      Script: {instanceID: 6808}
+      Script: {instanceID: 6358}
     - Class: 114
-      Script: {instanceID: 7140}
+      Script: {instanceID: 6704}
     - Class: 114
-      Script: {instanceID: 7554}
+      Script: {instanceID: 6816}
     - Class: 114
-      Script: {instanceID: 7930}
+      Script: {instanceID: 7148}
+    - Class: 114
+      Script: {instanceID: 7562}
+    - Class: 114
+      Script: {instanceID: 7938}
+    - Class: 114
+      Script: {instanceID: 7962}
+    - Class: 114
+      Script: {instanceID: 8074}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -228,6 +245,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
     className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 88a84f3920b8fbefdba40de5bf6ea660
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NPC
   - hash:
       serializedVersion: 2
       Hash: f45600bcc886206dd55a3208474aad61
@@ -716,6 +739,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: c86166b72e03c50de9e815695013bb86
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InteractionDetector
+  - hash:
+      serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1154,7 +1183,13 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 1cf08b2af92d65f90aa2304d7d3db1f9
+      Hash: a303c569680cab760adb20914aab6824
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Chest
+  - hash:
+      serializedVersion: 2
+      Hash: e26e34b67a4a884048d279c7f81ba972
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: NPCDialogue
@@ -1236,6 +1271,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 13fe2520882f8261949e052fa5c74cf0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseController
   - hash:
       serializedVersion: 2
       Hash: 00eef92bf387da2c9009267123d9d674
