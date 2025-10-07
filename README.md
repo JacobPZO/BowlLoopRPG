@@ -10,5 +10,5 @@ Interact: space on keyboard, south face button on controller.
 
 NOTE: Saving does not work on WebGL
 
-CHANGELOG:
-Added interaction system and implemented save compatability between interactable objects and the save file.
+CHANGELOG 10/04/2025:
+Added NPC dialogue system.
