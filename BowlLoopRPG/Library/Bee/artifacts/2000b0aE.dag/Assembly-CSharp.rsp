@@ -347,6 +347,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SaveController.cs"
 "Assets/Scripts/SaveData.cs"
+"Assets/Scripts/Slot.cs"
 "Assets/Scripts/TabController.cs"
 -langversion:9.0
 
