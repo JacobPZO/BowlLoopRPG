@@ -340,6 +340,7 @@
 "Assets/Scripts/GlobalHelper.cs"
 "Assets/Scripts/IInteractable.cs"
 "Assets/Scripts/InteractionDetector.cs"
+"Assets/Scripts/InventoryController.cs"
 "Assets/Scripts/MenuController.cs"
 "Assets/Scripts/NPC.cs"
 "Assets/Scripts/NPCDialogue.cs"
