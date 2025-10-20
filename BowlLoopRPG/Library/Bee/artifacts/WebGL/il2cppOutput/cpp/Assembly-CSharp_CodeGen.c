@@ -32,6 +32,13 @@ extern void InteractionDetector_OnInteract_m34B3A5E50E70A50C8705FC00320DC4E8C855
 extern void InteractionDetector_OnTriggerEnter_m85FD767B39CC280646AEDEC5A370B82A9BD57FF9 (void);
 extern void InteractionDetector_OnTriggerExit_mCB9A8E37A2AB0668E25C0B2D8E6B3CF4D0C7DFE8 (void);
 extern void InteractionDetector__ctor_m0AE99EFD377B7C3061AEA68C1244BBC5C092B59C (void);
+extern void InventoryController_Start_mA04F6DCBE3E13B350E621B0B7ED21B7E33B91923 (void);
+extern void InventoryController__ctor_m7326D04734CDFE58567C5349A9F06DEE4D55D17E (void);
+extern void ItemDragHandler_Start_mE777C174ED99D70A9E2A26D033628068E0956A77 (void);
+extern void ItemDragHandler_OnBeginDrag_m33DA8EA7E55953B38316C630A15366D4B61C8AA4 (void);
+extern void ItemDragHandler_OnDrag_m341DBC0D40F36097380E025001ED308432A6A15D (void);
+extern void ItemDragHandler_OnEndDrag_m28450C3C9E176982AE0BA759BCD4BBFB0738CCCE (void);
+extern void ItemDragHandler__ctor_m677BE748CB2DD8439E78B370E2F3694381FBE987 (void);
 extern void MenuController_onMenuButtonPress_m40B295AED479185EE683F8B8D7920CA698428652 (void);
 extern void MenuController_Start_m88A8FAF8DB4765830F6CA0D4508D5E565B2F68D0 (void);
 extern void MenuController_Update_m15DD6714D46E0384A1F59B62B8A6323C108058D6 (void);
@@ -70,12 +77,13 @@ extern void U3CU3Ec__DisplayClass7_0__ctor_m9D987AF386F2C45415AB518EAAE528E17E55
 extern void U3CU3Ec__DisplayClass7_0_U3CLoadChestStatesU3Eb__0_m0F3E61260D2C371D459365C5782ACB85B505C59D (void);
 extern void SaveData__ctor_m7E683A9CD703CB4058EEA6C1BBC22F4EDE2F76E5 (void);
 extern void ChestSaveData__ctor_m689E2FAD7D5D324EDC7B2754D47929444B1ADC69 (void);
+extern void Slot__ctor_m67B2CD572C432B806CDC5EEE03B93D62B001CCDB (void);
 extern void TabController_Start_m59C95EB8C604D9B773F61F1D1B27DCED5D51E8B7 (void);
 extern void TabController_ActivateTab_m132F547CE20C0C7A9E267B88201748DDFE249CBA (void);
 extern void TabController__ctor_m22D32FAA895EB9C325CE5CE01846461A72736457 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[65] = 
+static Il2CppMethodPointer s_methodPointers[73] = 
 {
 	CameraFollow_Start_m99884706C63F385A5C536C8837C14A38D1B6D78D,
 	CameraFollow_Update_mFE010EED058E2CE97530268AC64A2C071D5F853A,
@@ -99,6 +107,13 @@ static Il2CppMethodPointer s_methodPointers[65] =
 	InteractionDetector_OnTriggerEnter_m85FD767B39CC280646AEDEC5A370B82A9BD57FF9,
 	InteractionDetector_OnTriggerExit_mCB9A8E37A2AB0668E25C0B2D8E6B3CF4D0C7DFE8,
 	InteractionDetector__ctor_m0AE99EFD377B7C3061AEA68C1244BBC5C092B59C,
+	InventoryController_Start_mA04F6DCBE3E13B350E621B0B7ED21B7E33B91923,
+	InventoryController__ctor_m7326D04734CDFE58567C5349A9F06DEE4D55D17E,
+	ItemDragHandler_Start_mE777C174ED99D70A9E2A26D033628068E0956A77,
+	ItemDragHandler_OnBeginDrag_m33DA8EA7E55953B38316C630A15366D4B61C8AA4,
+	ItemDragHandler_OnDrag_m341DBC0D40F36097380E025001ED308432A6A15D,
+	ItemDragHandler_OnEndDrag_m28450C3C9E176982AE0BA759BCD4BBFB0738CCCE,
+	ItemDragHandler__ctor_m677BE748CB2DD8439E78B370E2F3694381FBE987,
 	MenuController_onMenuButtonPress_m40B295AED479185EE683F8B8D7920CA698428652,
 	MenuController_Start_m88A8FAF8DB4765830F6CA0D4508D5E565B2F68D0,
 	MenuController_Update_m15DD6714D46E0384A1F59B62B8A6323C108058D6,
@@ -137,13 +152,14 @@ static Il2CppMethodPointer s_methodPointers[65] =
 	U3CU3Ec__DisplayClass7_0_U3CLoadChestStatesU3Eb__0_m0F3E61260D2C371D459365C5782ACB85B505C59D,
 	SaveData__ctor_m7E683A9CD703CB4058EEA6C1BBC22F4EDE2F76E5,
 	ChestSaveData__ctor_m689E2FAD7D5D324EDC7B2754D47929444B1ADC69,
+	Slot__ctor_m67B2CD572C432B806CDC5EEE03B93D62B001CCDB,
 	TabController_Start_m59C95EB8C604D9B773F61F1D1B27DCED5D51E8B7,
 	TabController_ActivateTab_m132F547CE20C0C7A9E267B88201748DDFE249CBA,
 	TabController__ctor_m22D32FAA895EB9C325CE5CE01846461A72736457,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[65] = 
+static const int32_t s_InvokerIndices[73] = 
 {
 	5480,
 	5480,
@@ -164,6 +180,13 @@ static const int32_t s_InvokerIndices[65] =
 	0,
 	5480,
 	4458,
+	4341,
+	4341,
+	5480,
+	5480,
+	5480,
+	5480,
+	4341,
 	4341,
 	4341,
 	5480,
@@ -206,6 +229,7 @@ static const int32_t s_InvokerIndices[65] =
 	5480,
 	5480,
 	5480,
+	5480,
 	4312,
 	5480,
 	8053,
@@ -215,7 +239,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	65,
+	73,
 	s_methodPointers,
 	0,
 	NULL,

@@ -929,7 +929,9 @@
           },
           {
             "name": "CanvasGroup",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/DemoScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

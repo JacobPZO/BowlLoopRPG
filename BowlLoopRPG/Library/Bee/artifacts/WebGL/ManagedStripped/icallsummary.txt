@@ -90,6 +90,7 @@ UnityEngine.CanvasGroup::get_ignoreParentGroups
 UnityEngine.CanvasGroup::get_interactable
 UnityEngine.CanvasGroup::get_alpha
 UnityEngine.CanvasGroup::set_alpha
+UnityEngine.CanvasGroup::set_blocksRaycasts
 UnityEngine.CanvasGroup::set_ignoreParentGroups
 UnityEngine.CanvasRenderer::get_cull
 UnityEngine.CanvasRenderer::get_cullTransparentMesh
@@ -412,6 +413,7 @@ UnityEngine.Object::set_hideFlags
 UnityEngine.Object::get_hideFlags
 UnityEngine.Object::FindObjectFromInstanceID
 UnityEngine.Object::Internal_CloneSingle
+UnityEngine.Object::Internal_CloneSingleWithParent
 UnityEngine.Object::Internal_InstantiateSingle_Injected
 UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectGUIState::Internal_Create
@@ -646,6 +648,7 @@ UnityEngine.Transform::set_rotation_Injected
 UnityEngine.Transform::FindRelativeTransformWithPath
 UnityEngine.Transform::GetChild
 UnityEngine.Transform::GetParent
+UnityEngine.Transform::GetRoot
 UnityEngine.U2D.SpriteAtlas::CanBindTo
 UnityEngine.U2D.SpriteAtlasManager::Register
 UnityEngine.UIElements.MeshBuilderNative::MakeBorder_Injected

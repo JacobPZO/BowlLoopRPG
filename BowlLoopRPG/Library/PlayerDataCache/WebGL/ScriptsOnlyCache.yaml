@@ -4,11 +4,14 @@ ScriptsOnlyBuild:
     - CameraFollow
     - Chest
     - InteractionDetector
+    - InventoryController
+    - ItemDragHandler
     - MenuController
     - NPC
     - NPCDialogue
     - PlayerController
     - SaveController
+    - Slot
     - TabController
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.Editor.InputActionEditorWindow
@@ -163,49 +166,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1670}
     - Class: 114
-      Script: {instanceID: 2270}
+      Script: {instanceID: 1728}
     - Class: 114
-      Script: {instanceID: 2762}
+      Script: {instanceID: 2272}
     - Class: 114
-      Script: {instanceID: 2984}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 3320}
+      Script: {instanceID: 2938}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 4108}
+      Script: {instanceID: 3324}
     - Class: 114
-      Script: {instanceID: 4462}
+      Script: {instanceID: 4016}
     - Class: 114
-      Script: {instanceID: 4752}
+      Script: {instanceID: 4112}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 4466}
     - Class: 114
-      Script: {instanceID: 5182}
+      Script: {instanceID: 4756}
     - Class: 114
-      Script: {instanceID: 5552}
+      Script: {instanceID: 5084}
     - Class: 114
-      Script: {instanceID: 5930}
+      Script: {instanceID: 5186}
     - Class: 114
-      Script: {instanceID: 6066}
+      Script: {instanceID: 5556}
     - Class: 114
-      Script: {instanceID: 6178}
+      Script: {instanceID: 5934}
     - Class: 114
-      Script: {instanceID: 6358}
+      Script: {instanceID: 6070}
     - Class: 114
-      Script: {instanceID: 6704}
+      Script: {instanceID: 6182}
     - Class: 114
-      Script: {instanceID: 6816}
+      Script: {instanceID: 6362}
     - Class: 114
-      Script: {instanceID: 7148}
+      Script: {instanceID: 6708}
     - Class: 114
-      Script: {instanceID: 7562}
+      Script: {instanceID: 6820}
     - Class: 114
-      Script: {instanceID: 7938}
+      Script: {instanceID: 7152}
     - Class: 114
-      Script: {instanceID: 7962}
+      Script: {instanceID: 7566}
     - Class: 114
-      Script: {instanceID: 8074}
+      Script: {instanceID: 7942}
+    - Class: 114
+      Script: {instanceID: 7966}
+    - Class: 114
+      Script: {instanceID: 8078}
+    - Class: 114
+      Script: {instanceID: 8200}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -225,6 +234,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -263,6 +274,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ee4d41f73a6c06525058b8ea7b75be18
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ItemDragHandler
   - hash:
       serializedVersion: 2
       Hash: 8dff8e9853297d341afa0c11f9091b59
@@ -395,6 +412,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 77d124e4970c0851d3ef6c74ce0bfaf4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Slot
   - hash:
       serializedVersion: 2
       Hash: fce9b835d1e8b08e7ecea8da19f21986
@@ -1193,6 +1216,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: NPCDialogue
+  - hash:
+      serializedVersion: 2
+      Hash: a988103acedcf53a08e1ae62202d6da2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InventoryController
   - hash:
       serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
