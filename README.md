@@ -10,5 +10,5 @@ Interact: space on keyboard, south face button on controller.
 
 NOTE: Saving does not work on WebGL
 
-CHANGELOG 10/04/2025:
-Added NPC dialogue system.
+CHANGELOG 10/19/2025:
+Added inventory system in the menu.
