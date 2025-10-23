@@ -8,6 +8,7 @@ using System.Linq;
 public class SaveController : MonoBehaviour
 {
     private string saveLocation;
+    private InventoryController inventoryController;
     private Chest[] chests;
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class SaveController : MonoBehaviour
     {
         saveLocation = Path.Combine(UnityEngine.Application.persistentDataPath, "saveData.json");
         chests = FindObjectsOfType<Chest>();
+        inventoryController = FindObjectOfType<InventoryController>();
     }
 
 
@@ -28,7 +30,8 @@ public class SaveController : MonoBehaviour
         SaveData saveData = new SaveData
         {
             playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
-            chestSaveData = GetChestsState()
+            chestSaveData = GetChestsState(),
+            inventorySaveData = inventoryController.GetInventoryItems()
         };
         File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
     }
@@ -59,6 +62,8 @@ public class SaveController : MonoBehaviour
             GameObject.FindGameObjectWithTag("Player").transform.position = saveData.playerPosition;
 
             LoadChestStates(saveData.chestSaveData);
+
+            inventoryController.SetInventoryItems(saveData.inventorySaveData);
         }
         else
         {

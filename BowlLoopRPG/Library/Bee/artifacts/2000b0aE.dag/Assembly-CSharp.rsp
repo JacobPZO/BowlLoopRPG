@@ -341,6 +341,7 @@
 "Assets/Scripts/IInteractable.cs"
 "Assets/Scripts/InteractionDetector.cs"
 "Assets/Scripts/InventoryController.cs"
+"Assets/Scripts/InventorySaveData.cs"
 "Assets/Scripts/Item.cs"
 "Assets/Scripts/ItemDictionary.cs"
 "Assets/Scripts/ItemDragHandler.cs"
