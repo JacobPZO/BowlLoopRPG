@@ -76,8 +76,10 @@
     <Compile Include="Assets\Scripts\SaveController.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerItemCollector.cs" />
     <Compile Include="Assets\Scripts\GlobalHelper.cs" />
     <Compile Include="Assets\Scripts\SaveData.cs" />
+    <Compile Include="Assets\Scripts\OverworldItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
