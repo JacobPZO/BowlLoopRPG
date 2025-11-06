@@ -15,11 +15,13 @@ MonoBehaviour:
   npcName:
   - Test Guy
   - Test Guy
-  - You!!!
+  - Test Guy
+  - Test Guy
   npcPortrait:
   - {fileID: 21300000, guid: 6f11105e63459a0478470f3eb2de6d0c, type: 3}
   - {fileID: 21300000, guid: 6f11105e63459a0478470f3eb2de6d0c, type: 3}
-  - {fileID: 21300000, guid: 7a91b3e0263103e4c9aeb7000147a083, type: 3}
+  - {fileID: 21300000, guid: 6f11105e63459a0478470f3eb2de6d0c, type: 3}
+  - {fileID: 21300000, guid: 6f11105e63459a0478470f3eb2de6d0c, type: 3}
   dialogueLines:
   - It's a tester's world out there!!!
   - Have you been outside yet?

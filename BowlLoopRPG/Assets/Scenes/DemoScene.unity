@@ -373,6 +373,8 @@ MonoBehaviour:
   dialogueText: {fileID: 433457348}
   nameText: {fileID: 558096837}
   portraitImage: {fileID: 398329066}
+  choiceContainer: {fileID: 1100805614}
+  choiceButtonPrefab: {fileID: 3326739692951856933, guid: a288b3bea12dcc74ab5e997eb7072a0d, type: 3}
 --- !u!1 &60993680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2956,7 +2958,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1040686790
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3667,7 +3669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 831294c9fcd80794fa6a765dde8d6b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueData: {fileID: 11400000, guid: 329c55766d1b43f4a852ffd85c93f4dd, type: 2}
+  dialogueData: {fileID: 11400000, guid: 5aa21d5f35e7f9e419f91b1591aa5f7e, type: 2}
 --- !u!65 &1489744075
 BoxCollider:
   m_ObjectHideFlags: 0
