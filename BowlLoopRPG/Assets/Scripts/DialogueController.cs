@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Security.Cryptography;
 
 public class DialogueController : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class DialogueController : MonoBehaviour
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
+    public Transform choiceContainer;
+    public GameObject choiceButton;
 
     // Start is called before the first frame update
     void Awake()
@@ -33,5 +36,18 @@ public class DialogueController : MonoBehaviour
     public void SetDialogueText(string text)
     {
         dialogueText.text = text;
+    }
+
+    public void ClearChoices()
+    {
+        foreach (CryptoAPITransform child in choiceContainer)
+        {
+            Destroy(child.GameObject);
+        }
+    }
+
+    public GameObject CreateChoiceButton(string choiceText, UnityEngine.Events.UnityAction onClick)
+    {
+
     }
 }
