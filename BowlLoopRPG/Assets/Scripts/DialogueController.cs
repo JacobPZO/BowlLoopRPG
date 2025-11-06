@@ -40,9 +40,9 @@ public class DialogueController : MonoBehaviour
 
     public void ClearChoices()
     {
-        foreach (CryptoAPITransform child in choiceContainer)
+        foreach (Transform child in choiceContainer)
         {
-            Destroy(child.GameObject);
+            Destroy(child.gameObject);
         }
     }
 
@@ -50,6 +50,6 @@ public class DialogueController : MonoBehaviour
     {
         GameObject choiceButton = Instantiate(choiceButtonPrefab, choiceContainer);
         choiceButton.GetComponentInChildren<TMP_Text>().text = choiceText;
-        choiceButton.GetComponent<choiceButton>().onClick.AddListener(onClick);
+        choiceButton.GetComponent<Button>().onClick.AddListener(onClick);
     }
 }

@@ -124,7 +124,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueController.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\DialogueController.cs",
               "RelativeToolTip": "Assets\\Scripts\\DialogueController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADQAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T23:24:14.763Z",
               "EditorCaption": ""
@@ -355,8 +355,7 @@
               "RelativeToolTip": "Assets\\Scripts\\NPCDialogue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T19:33:46.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T19:33:46.285Z"
             },
             {
               "$type": "Document",
