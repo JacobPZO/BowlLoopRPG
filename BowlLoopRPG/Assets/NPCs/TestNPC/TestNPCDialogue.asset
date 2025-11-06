@@ -38,3 +38,4 @@ MonoBehaviour:
   - 1
   autoProgressLines: 000000
   autoProgressDelay: 0
+  choices: []
