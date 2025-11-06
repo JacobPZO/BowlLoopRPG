@@ -13,7 +13,7 @@ public class DialogueController : MonoBehaviour
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
     public Transform choiceContainer;
-    public GameObject choiceButton;
+    public GameObject choiceButtonPrefab;
 
     // Start is called before the first frame update
     void Awake()
@@ -46,8 +46,10 @@ public class DialogueController : MonoBehaviour
         }
     }
 
-    public GameObject CreateChoiceButton(string choiceText, UnityEngine.Events.UnityAction onClick)
+    public void CreateChoiceButton(string choiceText, UnityEngine.Events.UnityAction onClick)
     {
-
+        GameObject choiceButton = Instantiate(choiceButtonPrefab, choiceContainer);
+        choiceButton.GetComponentInChildren<TMP_Text>().text = choiceText;
+        choiceButton.GetComponent<choiceButton>().onClick.AddListener(onClick);
     }
 }
