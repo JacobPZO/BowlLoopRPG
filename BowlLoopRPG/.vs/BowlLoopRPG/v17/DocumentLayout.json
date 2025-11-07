@@ -3,60 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\DialogueController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\NPCDialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NPCDialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Utilities\\DelegateHelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Utilities\\DelegateHelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\NPC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NPC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\OverworldItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\OverworldItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\PlayerItemCollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerItemCollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\DialogueController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DialogueController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\GlobalHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GlobalHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\IInteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\IInteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\ItemDictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemDictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\InventorySaveData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InventorySaveData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\InteractionDetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InteractionDetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\ItemDragHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemDragHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\ItemDictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemDictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\NPC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NPC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\PlayerItemCollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerItemCollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\InventorySaveData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InventorySaveData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\InventoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InventoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\PauseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PauseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\IInteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\IInteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Chest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\NPCDialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NPCDialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\GlobalHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GlobalHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\SaveController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,32 +83,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SaveData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\MenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\PauseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PauseController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\InteractionDetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InteractionDetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\TabController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TabController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,44 +102,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DelegateHelpers.cs",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Utilities\\DelegateHelpers.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Utilities\\DelegateHelpers.cs",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Utilities\\DelegateHelpers.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@1.7.0\\InputSystem\\Utilities\\DelegateHelpers.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAEwDMAAACAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T00:32:12.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DialogueController.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\DialogueController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DialogueController.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\DialogueController.cs",
               "RelativeToolTip": "Assets\\Scripts\\DialogueController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T23:24:14.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "OverworldItem.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\OverworldItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OverworldItem.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\OverworldItem.cs",
               "RelativeToolTip": "Assets\\Scripts\\OverworldItem.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T19:10:03.141Z"
+              "WhenOpened": "2025-10-28T19:10:03.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerItemCollector.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\PlayerItemCollector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerItemCollector.cs",
@@ -151,11 +136,12 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerItemCollector.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T17:58:37.7Z"
+              "WhenOpened": "2025-10-28T17:58:37.7Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "InventorySaveData.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\InventorySaveData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InventorySaveData.cs",
@@ -163,11 +149,12 @@
               "RelativeToolTip": "Assets\\Scripts\\InventorySaveData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T00:53:07.025Z"
+              "WhenOpened": "2025-10-23T00:53:07.025Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "ItemDictionary.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\ItemDictionary.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemDictionary.cs",
@@ -175,11 +162,12 @@
               "RelativeToolTip": "Assets\\Scripts\\ItemDictionary.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T05:05:53.04Z"
+              "WhenOpened": "2025-10-22T05:05:53.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item.cs",
@@ -191,19 +179,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "ItemDragHandler.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\ItemDragHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemDragHandler.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\ItemDragHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\ItemDragHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T18:14:16.908Z"
+              "WhenOpened": "2025-10-18T18:14:16.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\InventoryController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InventoryController.cs",
@@ -211,11 +200,12 @@
               "RelativeToolTip": "Assets\\Scripts\\InventoryController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAUwC0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T18:02:18.673Z"
+              "WhenOpened": "2025-10-16T18:02:18.673Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "Slot.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Slot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Slot.cs",
@@ -223,23 +213,25 @@
               "RelativeToolTip": "Assets\\Scripts\\Slot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T17:59:12.551Z"
+              "WhenOpened": "2025-10-16T17:59:12.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "NPC.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\NPC.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPC.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\NPC.cs",
               "RelativeToolTip": "Assets\\Scripts\\NPC.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAD0AAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T04:27:36.655Z"
+              "WhenOpened": "2025-10-05T04:27:36.655Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 10,
               "Title": "PauseController.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\PauseController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseController.cs",
@@ -247,23 +239,25 @@
               "RelativeToolTip": "Assets\\Scripts\\PauseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T20:34:10.32Z"
+              "WhenOpened": "2025-10-04T20:34:10.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "InteractionDetector.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\InteractionDetector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InteractionDetector.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\InteractionDetector.cs",
               "RelativeToolTip": "Assets\\Scripts\\InteractionDetector.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T01:01:39.747Z"
+              "WhenOpened": "2025-10-03T01:01:39.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "GlobalHelper.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\GlobalHelper.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GlobalHelper.cs",
@@ -275,31 +269,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Chest.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Chest.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Chest.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Chest.cs",
               "RelativeToolTip": "Assets\\Scripts\\Chest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T23:19:13.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "IInteractable.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\IInteractable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IInteractable.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\IInteractable.cs",
               "RelativeToolTip": "Assets\\Scripts\\IInteractable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T23:16:12.457Z"
+              "WhenOpened": "2025-10-02T23:16:12.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "SaveData.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\SaveData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveData.cs",
@@ -311,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "SaveController.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\SaveController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveController.cs",
@@ -335,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "MenuController.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\MenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuController.cs",
@@ -347,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "NPCDialogue.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\NPCDialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCDialogue.cs",
@@ -359,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 11,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
@@ -367,11 +362,12 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T03:37:03.729Z"
+              "WhenOpened": "2025-09-30T03:37:03.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 12,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -379,7 +375,8 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T03:15:19.581Z"
+              "WhenOpened": "2025-09-30T03:15:19.581Z",
+              "EditorCaption": ""
             }
           ]
         }
