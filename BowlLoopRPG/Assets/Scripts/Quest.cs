@@ -11,7 +11,7 @@ public class Quest : ScriptableObject
     public string description;
     public List<QuestObjective> objectives;
 
-    private void OnEnable()
+    private void OnValidate()
     {
         if (string.IsNullOrEmpty(questID))
         {
@@ -28,7 +28,7 @@ public class Quest : ScriptableObject
         public int requiredAmount;
         public int currentAmount;
 
-        public bool isCompleted => currentAmount >= requiredAmount;
+        public bool IsCompleted => currentAmount >= requiredAmount;
     }
 
     public enum ObjectiveType { CollectItem, TalkNPC, Custom}
@@ -43,6 +43,22 @@ public class Quest : ScriptableObject
         {
             this.quest = quest;
             objectives = new List<QuestObjective>();
+
+            foreach (var obj in quest.objectives)
+            {
+                objectives.Add(new QuestObjective
+                {
+                    objectiveID = obj.objectiveID,
+                    description = obj.description,
+                    type = obj.type,
+                    requiredAmount = obj.requiredAmount,
+                    currentAmount = 0
+                });
+            }
         }
+
+        public bool IsCompleted => objectives.TrueForAll(o => o.IsCompleted);
+
+        public string QuestID => quest.questID;
     }
 }

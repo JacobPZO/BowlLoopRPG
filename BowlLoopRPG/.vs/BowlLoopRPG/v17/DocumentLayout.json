@@ -112,7 +112,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Quest.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Quest.cs",
               "RelativeToolTip": "Assets\\Scripts\\Quest.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAUwCwAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T17:36:42.465Z",
               "EditorCaption": ""
@@ -139,8 +139,7 @@
               "RelativeToolTip": "Assets\\Scripts\\OverworldItem.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T19:10:03.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T19:10:03.141Z"
             },
             {
               "$type": "Document",
