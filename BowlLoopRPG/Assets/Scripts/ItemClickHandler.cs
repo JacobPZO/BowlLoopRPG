@@ -17,6 +17,7 @@ public class ItemClickHandler : MonoBehaviour, IPointerDownHandler
 
     public void OnPointerDown(PointerEventData eventData)
     { 
-
+        inventoryTextController.SetNameText(itemName);
+        inventoryTextController.SetDescriptionText(itemDescription);
     }
 }
