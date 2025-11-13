@@ -353,6 +353,7 @@
 "Assets/Scripts/PauseController.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerItemCollector.cs"
+"Assets/Scripts/Quest.cs"
 "Assets/Scripts/SaveController.cs"
 "Assets/Scripts/SaveData.cs"
 "Assets/Scripts/Slot.cs"
