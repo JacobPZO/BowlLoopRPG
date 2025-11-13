@@ -10,5 +10,8 @@ Interact: space on keyboard, south face button on controller.
 
 NOTE: Saving does not work on WebGL
 
-CHANGELOG 10/19/2025:
-Added inventory system in the menu.
+CHANGELOG MVP PRD1:
+Added branching dialogue.
+Added Quests menu tab.
+Added Quests scriptable object.
+Updated inventory UI
