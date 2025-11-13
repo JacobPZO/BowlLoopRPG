@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4553931618781668843}
   - component: {fileID: 6911077307932546876}
   - component: {fileID: 5930008000575711878}
+  - component: {fileID: -133391928523912911}
   m_Layer: 5
   m_Name: TestItemUI
   m_TagString: Item
@@ -114,4 +115,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1834917044f69741a71a310a7cbac33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 1
+--- !u!114 &-133391928523912911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366095807997055571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6453ddd29bc5772468b7d46779dbf439, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryTextController: {fileID: 0}
+  itemName: Cat
+  itemDescription: its so cool
