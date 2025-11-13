@@ -8298,7 +8298,7 @@ extern void FormattingHelpers_CountDigits_mE01337E47EFAB38CB85A419CECA05B3535330
 extern void FormattingHelpers_CountHexDigits_m2A0168ACE924C7DFBCFFD60AF8FEA1C6CC0420B7 (void);
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m52370B9D7DEAF095B34C6AE27338067A3A1CF886 (void);
 extern void ThrowStub_ThrowNotSupportedException_m02C318CA8F5812C025CBEDEA07A5DE5D0FDBB25F (void);
-static Il2CppMethodPointer s_methodPointers[9455] = 
+static Il2CppMethodPointer s_methodPointers[9456] = 
 {
 	Interop_GetExceptionForIoErrno_m701F71EF26E8E84C4DB2278B54D7F89BD522C7E7,
 	Interop_GetIOException_m4AEFBBA1E1D56F9C4D69CDD0626267AB8CFC9943,
@@ -17606,6 +17606,7 @@ static Il2CppMethodPointer s_methodPointers[9455] =
 	NULL,
 	NULL,
 	NULL,
+	NULL,
 	IntrospectiveSortUtilities_FloorLog2PlusOne_m33AC60574EC2B80A3B7084361A3736D4CFE91F6D,
 	IntrospectiveSortUtilities_ThrowOrIgnoreBadComparer_m119232371BEE9732FE70D22EE93B3818E577EFAF,
 	NULL,
@@ -19259,7 +19260,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[750] =
 	{ 0x06002238, DictionaryEntry_get_Key_m09845C00732E530E6FCB9042079E90D3912215FE_AdjustorThunk },
 	{ 0x06002239, DictionaryEntry_get_Value_m75FD18FE968AE131F28AA2CB0DF4895EBA39075E_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[9455] = 
+static const int32_t s_InvokerIndices[9456] = 
 {
 	6626,
 	7695,
@@ -28567,6 +28568,7 @@ static const int32_t s_InvokerIndices[9455] =
 	0,
 	0,
 	0,
+	0,
 	7592,
 	7856,
 	0,
@@ -28912,8 +28914,8 @@ static const Il2CppTokenRangePair s_rgctxIndices[190] =
 	{ 0x06001D48, { 693, 3 } },
 	{ 0x06001D4A, { 696, 3 } },
 	{ 0x0600221A, { 699, 7 } },
-	{ 0x0600240F, { 1035, 4 } },
-	{ 0x06002410, { 1039, 5 } },
+	{ 0x06002410, { 1035, 4 } },
+	{ 0x06002411, { 1039, 5 } },
 };
 extern const uint32_t g_rgctx_IEnumerable_1_t1D918E0CF1CB965BF1C8276D21A3E30D825035FC;
 extern const uint32_t g_rgctx_String_JoinCore_TisT_t7AB14D4009931A6FCFB32CF2CAF14BA91ABC5E68_mA1033F52BDE32EB24CFD4E0988387F86B39C6C1D;
@@ -31542,7 +31544,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 const Il2CppCodeGenModule g_mscorlib_CodeGenModule = 
 {
 	"mscorlib.dll",
-	9455,
+	9456,
 	s_methodPointers,
 	750,
 	s_adjustorThunks,
