@@ -10,8 +10,13 @@ Interact: space on keyboard, south face button on controller.
 
 NOTE: Saving does not work on WebGL
 
-CHANGELOG MVP PRD1:
-Added branching dialogue.
-Added Quests menu tab.
-Added Quests scriptable object.
-Updated inventory UI
+Changelog VS Prd2:
+Added interaction to overworld items (destroys the item in the overworld and adds a corresponding prefab to the player's inventory.
+
+Changelog VS Prd3:
+Added foundation for branching dialogue choices.
+Item collection bugfix.
+
+Changelog VS Prd4:
+Implemented functional branching dialogue.
+Updates to inventory UI.
