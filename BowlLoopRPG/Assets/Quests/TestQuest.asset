@@ -17,7 +17,7 @@ MonoBehaviour:
   description: Collect three (3) cats or die trying
   objectives:
   - objectiveID: 1
-    description: th3ree cats please please please
+    description: tw2o cats please please please
     type: 0
-    requiredAmount: 3
+    requiredAmount: 2
     currentAmount: 0

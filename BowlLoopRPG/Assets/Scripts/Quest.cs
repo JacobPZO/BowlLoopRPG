@@ -18,47 +18,47 @@ public class Quest : ScriptableObject
             questID = questName + Guid.NewGuid().ToString();
         }
     }
+}
 
-    [System.Serializable]
-    public class QuestObjective
+[System.Serializable]
+public class QuestObjective
+{
+    public string objectiveID;
+    public string description;
+    public ObjectiveType type;
+    public int requiredAmount;
+    public int currentAmount;
+
+    public bool IsCompleted => currentAmount >= requiredAmount;
+}
+
+public enum ObjectiveType { CollectItem, TalkNPC, Custom }
+
+[System.Serializable]
+public class QuestProgress
+{
+    public Quest quest;
+    public List<QuestObjective> objectives;
+
+    public QuestProgress(Quest quest)
     {
-        public string objectiveID;
-        public string description;
-        public ObjectiveType type;
-        public int requiredAmount;
-        public int currentAmount;
+        this.quest = quest;
+        objectives = new List<QuestObjective>();
 
-        public bool IsCompleted => currentAmount >= requiredAmount;
-    }
-
-    public enum ObjectiveType { CollectItem, TalkNPC, Custom}
-
-    [System.Serializable]
-    public class QuestProgress
-    {
-        public Quest quest;
-        public List <QuestObjective> objectives;
-
-        public QuestProgress(Quest quest)
+        foreach (var obj in quest.objectives)
         {
-            this.quest = quest;
-            objectives = new List<QuestObjective>();
-
-            foreach (var obj in quest.objectives)
+            objectives.Add(new QuestObjective
             {
-                objectives.Add(new QuestObjective
-                {
-                    objectiveID = obj.objectiveID,
-                    description = obj.description,
-                    type = obj.type,
-                    requiredAmount = obj.requiredAmount,
-                    currentAmount = 0
-                });
-            }
+                objectiveID = obj.objectiveID,
+                description = obj.description,
+                type = obj.type,
+                requiredAmount = obj.requiredAmount,
+                currentAmount = 0
+            });
         }
-
-        public bool IsCompleted => objectives.TrueForAll(o => o.IsCompleted);
-
-        public string QuestID => quest.questID;
     }
+
+    public bool IsCompleted => objectives.TrueForAll(o => o.IsCompleted);
+
+    public string QuestID => quest.questID;
 }
