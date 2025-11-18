@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Quest.cs" />
     <Compile Include="Assets\Scripts\DialogueController.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\NPCDialogue.cs" />
     <Compile Include="Assets\Scripts\SaveController.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
