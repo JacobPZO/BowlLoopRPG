@@ -5941,6 +5941,7 @@ GameObject:
   - component: {fileID: 1298871652}
   - component: {fileID: 1298871654}
   - component: {fileID: 1298871655}
+  - component: {fileID: 1298871656}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -6009,6 +6010,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: {fileID: 1209113765}
   itemDescription: {fileID: 1799049722}
+--- !u!114 &1298871656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298871651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e8b63fe43417642bdea32723969e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questListContent: {fileID: 0}
+  questEntryPrefab: {fileID: 0}
+  objectiveTextPrefab: {fileID: 0}
+  testQuest: {fileID: 0}
+  testQuestAmount: 0
 --- !u!1 &1381421800
 GameObject:
   m_ObjectHideFlags: 0

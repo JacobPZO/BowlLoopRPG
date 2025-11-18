@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\PlayerItemCollector.cs" />
     <Compile Include="Assets\Scripts\GlobalHelper.cs" />
     <Compile Include="Assets\Scripts\SaveData.cs" />
+    <Compile Include="Assets\Scripts\QuestUI.cs" />
     <Compile Include="Assets\Scripts\OverworldItem.cs" />
   </ItemGroup>
   <ItemGroup>
