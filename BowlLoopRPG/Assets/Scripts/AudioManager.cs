@@ -29,9 +29,10 @@ public class AudioManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public void Play(AudioClip clip)
+    public void Play(AudioClip clip, float pitch)
     {
         EffectsSource.clip = clip;
+        EffectsSource.pitch = pitch;
         EffectsSource.Play();
     }
 
