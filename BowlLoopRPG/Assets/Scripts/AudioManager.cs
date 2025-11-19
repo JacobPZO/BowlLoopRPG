@@ -47,7 +47,7 @@ public class AudioManager : MonoBehaviour
         int randomIndex = UnityEngine.Random.Range(0, clips.Length);
         float randomPitch = UnityEngine.Random.Range(LowPitchRange, HighPitchRange);
 
-        EffectsSource.pitch = randomPitch;
+        EffectsSource.pitch += randomPitch - 1f;
         EffectsSource.clip = clips[randomIndex];
         EffectsSource.Play();
     }
