@@ -29,9 +29,10 @@ public class AudioManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public void Play(AudioClip clip)
+    public void Play(AudioClip clip, float pitch)
     {
         EffectsSource.clip = clip;
+        EffectsSource.pitch = pitch;
         EffectsSource.Play();
     }
 
@@ -47,7 +48,7 @@ public class AudioManager : MonoBehaviour
         int randomIndex = UnityEngine.Random.Range(0, clips.Length);
         float randomPitch = UnityEngine.Random.Range(LowPitchRange, HighPitchRange);
 
-        EffectsSource.pitch = randomPitch;
+        EffectsSource.pitch += randomPitch - 1f;
         EffectsSource.clip = clips[randomIndex];
         EffectsSource.Play();
     }

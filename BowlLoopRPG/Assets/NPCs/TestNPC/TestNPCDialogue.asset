@@ -35,7 +35,8 @@ MonoBehaviour:
   voicePitch:
   - 1
   - 1
-  - 1
+  - 0.7
   autoProgressLines: 000000
+  endDialogueLines: 
   autoProgressDelay: 0
   choices: []
