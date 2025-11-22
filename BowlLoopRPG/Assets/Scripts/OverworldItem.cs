@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OverworldItem : MonoBehaviour, IInteractable
+public class OverworldItem : MonoBehaviour
 {
     public GameObject UIItem;
     private InventoryController inventoryController;
@@ -24,20 +24,22 @@ public class OverworldItem : MonoBehaviour, IInteractable
         
     }
 
-    public bool CanInteract()
+    public bool CanPickup()
     {
         return !Obtained;
     }
 
-    public void Interact()
+    public void OnTriggerEnter(Collider collision)
     {
-        if (!CanInteract()) return;
-        bool itemAdded = inventoryController.AddItem(UIItem);
-        if (itemAdded)
+        if (collision.CompareTag("Player"))
         {
-            Obtained = true;
-            interactionDetector.interactionIcon.SetActive(false);
-            Destroy(gameObject);
+            if (!CanPickup()) return;
+            bool itemAdded = inventoryController.AddItem(UIItem);
+            if (itemAdded)
+            {
+                Obtained = true;
+                Destroy(gameObject);
+            }
         }
     }
 }
