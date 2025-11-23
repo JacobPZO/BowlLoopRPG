@@ -4659,6 +4659,7 @@ GameObject:
   - component: {fileID: 1298871655}
   - component: {fileID: 1298871656}
   - component: {fileID: 1298871657}
+  - component: {fileID: 1298871658}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -4755,6 +4756,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeQuests: []
+--- !u!114 &1298871658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298871651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30425eb9b53a7434bb5efddffef92bd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tonkus: 0
 --- !u!1 &1381421800
 GameObject:
   m_ObjectHideFlags: 0
