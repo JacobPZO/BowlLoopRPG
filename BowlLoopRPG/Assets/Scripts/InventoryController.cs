@@ -33,6 +33,7 @@ public class InventoryController : MonoBehaviour
     void Start()
     {
         itemDictionary = FindObjectOfType<ItemDictionary>();
+        RebuildItemCounts();
 
         /* for (int i = 0; i < slotCount; i++)
         {
@@ -47,6 +48,28 @@ public class InventoryController : MonoBehaviour
         //functionality moved to SetInventoryItems()
     }
 
+    public void RebuildItemCounts()
+    {
+        itemsCountCache.Clear();
+
+        foreach (Transform slotTransform in inventoryPanel.transform)
+        {
+            Slot slot = slotTransform.GetComponent<Slot>();
+            if (slot.currentItem != null)
+            {
+                Item item = slot.currentItem.GetComponent<Item>();
+                if (item != null)
+                {
+                    itemsCountCache[item.ID] = itemsCountCache.GetValueOrDefault(item.ID, 0) + 1;
+                }
+            }
+        }
+
+        OnInventoryChanged?.Invoke();
+    }
+
+    public Dictionary<int, int> GetItemCounts() => itemsCountCache;
+
     public bool AddItem(GameObject itemPrefab)
     {
         foreach (Transform slotTransform in inventoryPanel.transform)
@@ -57,6 +80,7 @@ public class InventoryController : MonoBehaviour
                 GameObject newItem = Instantiate(itemPrefab, slot.transform);
                 newItem.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
                 slot.currentItem = newItem;
+                RebuildItemCounts();
                 return true;
             }
         }
@@ -105,5 +129,7 @@ public class InventoryController : MonoBehaviour
                 }
             }
         }
+
+        RebuildItemCounts();
     }
 }
