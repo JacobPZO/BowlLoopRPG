@@ -20,6 +20,7 @@ public class QuestController : MonoBehaviour
         }
 
         questUI = FindObjectOfType<QuestUI>();
+        InventoryController.Instance.OnInventoryChanged += CheckInventoryForQuests;
     }
 
     public void AcceptQuest(Quest quest)
@@ -27,8 +28,31 @@ public class QuestController : MonoBehaviour
         if (IsQuestActive(quest.questID)) return;
 
         activeQuests.Add(new QuestProgress(quest));
+        CheckInventoryForQuests();
         questUI.UpdateQuestUI();
     }
 
     public bool IsQuestActive(string questID) => activeQuests.Exists(q => q.QuestID == questID);   
+
+    public void CheckInventoryForQuests()
+    {
+        Dictionary<int, int> itemCounts = InventoryController.Instance.GetItemCounts();
+
+        foreach(QuestProgress quest in activeQuests)
+        {
+            foreach (QuestObjective questObjective in quest.objectives)
+            {
+                if(questObjective.type != ObjectiveType.CollectItem) continue;
+                if (!int.TryParse(questObjective.objectiveID, out int itemID)) continue;
+
+                int newAmount = itemCounts.TryGetValue(itemID, out int count) ? Mathf.Min(count, questObjective.requiredAmount) : 0;
+
+                if ( questObjective.currentAmount != newAmount)
+                {
+                    questObjective.currentAmount = newAmount;
+                }
+            }
+        }
+        questUI.UpdateQuestUI();
+    }
 }
