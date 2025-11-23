@@ -55,4 +55,12 @@ public class QuestController : MonoBehaviour
         }
         questUI.UpdateQuestUI();
     }
+
+    public void LoadQuestProgress(List<QuestProgress> savedQuests)
+    {
+        activeQuests = savedQuests ?? new();
+
+        CheckInventoryForQuests();
+        questUI.UpdateQuestUI();
+    }
 }
