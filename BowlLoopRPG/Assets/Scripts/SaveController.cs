@@ -32,7 +32,8 @@ public class SaveController : MonoBehaviour
             playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
             chestSaveData = GetChestsState(),
             inventorySaveData = inventoryController.GetInventoryItems(),
-            questProgressData = QuestController.Instance.activeQuests
+            questProgressData = QuestController.Instance.activeQuests,
+            handinQuestIDs = QuestController.Instance.handinQuestIDs
         };
         File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
     }
@@ -67,6 +68,7 @@ public class SaveController : MonoBehaviour
             inventoryController.SetInventoryItems(saveData.inventorySaveData);
 
             QuestController.Instance.LoadQuestProgress(saveData.questProgressData);
+            QuestController.Instance.handinQuestIDs = saveData.handinQuestIDs;
         }
         else
         {
