@@ -4756,6 +4756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeQuests: []
+  handinQuestIDs: []
 --- !u!114 &1298871658
 MonoBehaviour:
   m_ObjectHideFlags: 0

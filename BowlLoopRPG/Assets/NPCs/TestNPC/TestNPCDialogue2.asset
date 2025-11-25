@@ -51,3 +51,7 @@ MonoBehaviour:
     - yeah
     - NO!
     nextDialogueIndexes: 0200000003000000
+    givesQuest: 0000
+  questInProgressIndex: 0
+  questCompletedIndex: 0
+  quest: {fileID: 0}

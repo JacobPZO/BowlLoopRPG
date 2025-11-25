@@ -8,6 +8,8 @@ public class QuestController : MonoBehaviour
     public List<QuestProgress> activeQuests = new();
     private QuestUI questUI;
 
+    public List<string> handinQuestIDs = new();
+
     private void Awake()
     {
         if (Instance == null)
@@ -54,6 +56,65 @@ public class QuestController : MonoBehaviour
             }
         }
         questUI.UpdateQuestUI();
+    }
+
+    public bool IsQuestCompleted(string questID)
+    {
+        QuestProgress quest = activeQuests.Find(q => q.QuestID == questID);
+        return quest != null && quest.objectives.TrueForAll(o => o.IsCompleted);
+    }
+
+    public void HandInQuest(string questID)
+    {
+        if(!RemoveRequiredItemsFromInventory(questID))
+        {
+            return;
+        }
+
+        QuestProgress quest = activeQuests.Find(q => q.QuestID == questID);
+        if (quest != null)
+        {
+            handinQuestIDs.Add(questID);
+            activeQuests.Remove(quest);
+            questUI.UpdateQuestUI();
+        }
+    }
+
+    public bool IsQuestHandedIn(string QuestID)
+    {
+        return handinQuestIDs.Contains(QuestID);
+    }
+
+    public bool RemoveRequiredItemsFromInventory(string questID)
+    {
+        QuestProgress quest = activeQuests.Find(q => q.QuestID == questID);
+        if (quest == null) return false;
+
+        Dictionary<int, int> requiredItems = new();
+
+        foreach (QuestObjective objective in quest.objectives)
+        {
+            if(objective.type == ObjectiveType.CollectItem && int.TryParse(objective.objectiveID, out int itemID))
+            {
+                requiredItems[itemID] = objective.requiredAmount;
+            }
+        }
+
+        Dictionary<int, int> itemCounts = InventoryController.Instance.GetItemCounts();
+        foreach (var item in requiredItems)
+        {
+            if (itemCounts.GetValueOrDefault(item.Key) < item.Value)
+            {
+                return false;
+            }
+        }
+
+        foreach(var itemRequirement in requiredItems)
+        {
+            InventoryController.Instance.RemoveItemsFromInventory(itemRequirement.Key, itemRequirement.Value);
+        }
+
+        return true;
     }
 
     public void LoadQuestProgress(List<QuestProgress> savedQuests)
