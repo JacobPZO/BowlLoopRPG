@@ -20,3 +20,8 @@ Item collection bugfix.
 Changelog VS Prd4:
 Implemented functional branching dialogue.
 Updates to inventory UI.
+
+Changelog MVP Prd3:
+Implemented quest progress tracking and turn in
+Added sound effects.
+Added quest progress save functionality.
