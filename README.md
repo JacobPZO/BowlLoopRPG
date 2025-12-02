@@ -10,6 +10,14 @@ Interact: space on keyboard, south face button on controller.
 
 NOTE: Saving does not work on WebGL
 
+Resources Used:
+https://www.daggerhartlab.com/unity-audio-and-sound-manager-singleton-script/
+https://www.youtube.com/watch?v=r5TOpRmQh-o&list=PLaaFfzxy_80HtVvBnpK_IjSC8_Y9AOhuP
+https://www.youtube.com/watch?v=xF19LIYfUmY
+
+Misc:
+https://docs.unity3d.com/Manual
+
 Changelog VS Prd2:
 Added interaction to overworld items (destroys the item in the overworld and adds a corresponding prefab to the player's inventory.
 
