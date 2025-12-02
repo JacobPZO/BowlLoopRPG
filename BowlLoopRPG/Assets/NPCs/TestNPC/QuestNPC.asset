@@ -21,13 +21,13 @@ MonoBehaviour:
   - Tom Jones
   - Tom Jones
   npcPortrait:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 0756754fad2ff4e4c9d27667c82d6a7b, type: 3}
+  - {fileID: 21300000, guid: 0756754fad2ff4e4c9d27667c82d6a7b, type: 3}
+  - {fileID: 21300000, guid: 2708a774a32315f4dbb3235f3d05643e, type: 3}
+  - {fileID: 21300000, guid: 0756754fad2ff4e4c9d27667c82d6a7b, type: 3}
+  - {fileID: 21300000, guid: 0756754fad2ff4e4c9d27667c82d6a7b, type: 3}
+  - {fileID: 21300000, guid: 0756754fad2ff4e4c9d27667c82d6a7b, type: 3}
+  - {fileID: 21300000, guid: 0756754fad2ff4e4c9d27667c82d6a7b, type: 3}
   dialogueLines:
   - Greetings, lil business guy
   - I need two cats for my next startup. Can you help me find 'em?
