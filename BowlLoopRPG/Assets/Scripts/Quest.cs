@@ -32,7 +32,7 @@ public class QuestObjective
     public bool IsCompleted => currentAmount >= requiredAmount;
 }
 
-public enum ObjectiveType { CollectItem, TalkNPC, Custom }
+public enum ObjectiveType { CollectItem, TalkNPC, KillEnemy, Custom }
 
 [System.Serializable]
 public class QuestProgress

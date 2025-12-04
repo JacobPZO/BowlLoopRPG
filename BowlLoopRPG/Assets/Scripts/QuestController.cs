@@ -44,8 +44,14 @@ public class QuestController : MonoBehaviour
         {
             foreach (QuestObjective questObjective in quest.objectives)
             {
-                if(questObjective.type != ObjectiveType.CollectItem) continue;
-                if (!int.TryParse(questObjective.objectiveID, out int itemID)) continue;
+                if (questObjective.type != ObjectiveType.CollectItem)
+                {
+                    continue;
+                }
+                if (!int.TryParse(questObjective.objectiveID, out int itemID))
+                {
+                    continue;
+                }
 
                 int newAmount = itemCounts.TryGetValue(itemID, out int count) ? Mathf.Min(count, questObjective.requiredAmount) : 0;
 
@@ -56,6 +62,26 @@ public class QuestController : MonoBehaviour
             }
         }
         questUI.UpdateQuestUI();
+    }
+
+    public void CheckKillForQuests(int enemyID)
+    {
+        foreach (QuestProgress quest in activeQuests)
+        {
+            foreach (QuestObjective questObjective in quest.objectives)
+            {
+                if (questObjective.type != ObjectiveType.KillEnemy)
+                {
+                    continue;
+                }
+                if (questObjective.objectiveID == enemyID.ToString())
+                {
+                    continue;
+                }
+
+                questObjective.currentAmount++;
+            }
+        }
     }
 
     public bool IsQuestCompleted(string questID)
