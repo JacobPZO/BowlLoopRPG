@@ -13,6 +13,15 @@ public class Enemy : MonoBehaviour
         questController = FindObjectOfType<QuestController>();
     }
 
+    public void OnTriggerEnter(Collider collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            OnKill();
+            Destroy(gameObject);
+        }
+    }
+
     public void OnKill()
     {
         questController.CheckKillForQuests(ID);
