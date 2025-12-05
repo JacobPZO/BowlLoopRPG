@@ -82,6 +82,7 @@ public class QuestController : MonoBehaviour
                 questObjective.currentAmount++;
             }
         }
+        questUI.UpdateQuestUI();
     }
 
     public bool IsQuestCompleted(string questID)

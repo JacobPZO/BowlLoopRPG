@@ -16,7 +16,7 @@ MonoBehaviour:
   questName: EnemyQuest
   description: Defeat 3 Mr. Buquets
   objectives:
-  - objectiveID: 
+  - objectiveID: 0
     description: the kill >:)
     type: 2
     requiredAmount: 3
