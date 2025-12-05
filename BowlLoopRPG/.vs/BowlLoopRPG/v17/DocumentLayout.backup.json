@@ -174,7 +174,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
               "ToolTip": "C:\\Users\\Ninja\\Documents\\GitHub\\BowlLoopRPG\\BowlLoopRPG\\Assets\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T23:29:05.16Z",
               "EditorCaption": ""
@@ -225,8 +225,7 @@
               "RelativeToolTip": "Assets\\Scripts\\QuestController.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAFQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T23:43:41.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T23:43:41.126Z"
             },
             {
               "$type": "Document",
@@ -322,8 +321,7 @@
               "RelativeToolTip": "Assets\\Scripts\\OverworldItem.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T19:10:03.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T19:10:03.141Z"
             },
             {
               "$type": "Document",
@@ -395,8 +393,7 @@
               "RelativeToolTip": "Assets\\Scripts\\NPC.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAGQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T04:27:36.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T04:27:36.655Z"
             },
             {
               "$type": "Document",
