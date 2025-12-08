@@ -23,7 +23,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   dialogueLines:
-  - enemy quest give
+  - enemy quest give (2 enemies)
   - quest given
   - not given
   - complete
@@ -53,5 +53,5 @@ MonoBehaviour:
     nextDialogueIndexes: 0100000002000000
     givesQuest: 0100
   questInProgressIndex: 1
-  questCompletedIndex: 0
+  questCompletedIndex: 3
   quest: {fileID: 11400000, guid: df5daa4ecd2a19a4f96fd42749508d0c, type: 2}
